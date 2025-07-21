@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px 10px rgba(45, 37, 37, 0.75);
+}
+
+h1 {
+    color: red;
+}
+
+button {
+    font-size: 50px;
+    transition: transform ease 0.3;
+    margin-right: 10px;
+}
+
+#btn1 {
+    background-color: rgb(51, 255, 68);
+}
+
+#btn2 {
+    background-color: rgb(28, 62, 255);
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: rgb(197, 147, 147);
+    color: rgb(255, 20, 20);
+}

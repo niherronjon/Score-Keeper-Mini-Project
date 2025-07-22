@@ -18,6 +18,7 @@ Player2.addEventListener('click', () => {
 reset.addEventListener('click', () => {
     score1 = 0;
     score2 = 0;
+    
     document.querySelector("#p1").innerHTML = score1;
     document.querySelector("#p2").innerHTML = score2;
 });
